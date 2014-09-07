@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FF2D039C-BBDB-46F2-BFDA-0039468E03D6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Conference</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1856685F5D2C0806BE96FBE7AF3C76FBB0DB02AF</key>
+		<string>ssh://bitbucket.org/bodiam/conference.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/Conference.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1856685F5D2C0806BE96FBE7AF3C76FBB0DB02AF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/bodiam/conference.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1856685F5D2C0806BE96FBE7AF3C76FBB0DB02AF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1856685F5D2C0806BE96FBE7AF3C76FBB0DB02AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>conference</string>
+		</dict>
+	</array>
+</dict>
+</plist>

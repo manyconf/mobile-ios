@@ -1,0 +1,504 @@
+[
+    {
+        "description": "Open Data Conference 104",
+        "enddate": null,
+        "id": 1,
+        "location": null,
+        "logoUrl": "http://www.opendata101.nl/ly/image/logo.png",
+        "name": "Open Data 104",
+        "shortUrl": "open-data-104.evently.io",
+        "startdate": "2014-04-26T22:00:00Z",
+        "teaserImages": [],
+        "tracks": [],
+        "vanityUrl": null
+    },
+    {
+        "description": "Open Data Conference 103",
+        "enddate": null,
+        "id": 2,
+        "location": null,
+        "logoUrl": "http://www.opendata101.nl/ly/image/logo.png",
+        "name": "Open Data 103",
+        "shortUrl": "open-data-103.evently.io",
+        "startdate": "2014-04-25T22:00:00Z",
+        "teaserImages": [],
+        "tracks": [],
+        "vanityUrl": null
+    },
+    {
+        "description": "Open Data Conference 102",
+        "enddate": null,
+        "id": 4,
+        "location": null,
+        "logoUrl": "http://www.opendata101.nl/ly/image/logo.png",
+        "name": "Open Data 102",
+        "shortUrl": "open-data-102.evently.io",
+        "startdate": "2014-04-24T22:00:00Z",
+        "teaserImages": [],
+        "tracks": [],
+        "vanityUrl": null
+    },
+    {
+        "description": "Het eerste Open Data 101 event vindt plaats op 24 april in Amsterdam Oost. Tijdens dit event wordt uitgebreid ingegaan op de kansen en mogelijkheden van Open Data. Verschillende interessante sprekers vertellen hun visie en ervaring en ook gaan de bezoekers z\u00e8lf met Open Data aan de slag. Aan de hand van vijf verschillende maatschappelijke vraagstukken uit de Indische Buurt in Amsterdam werken ambtenaren, ICT\u2019ers en burgers samen aan nieuwe toepassingen van Open Data.",
+        "enddate": null,
+        "id": 3,
+        "location": {
+            "address": "Oranje-Vrijstaatplein 2",
+            "city": "Amsterdam",
+            "class": "conference.Location",
+            "country": "Nederland",
+            "id": 1,
+            "name": "Raadszaal Stadsdeelhuis Oost",
+            "zipCode": "1093 NG"
+        },
+        "logoUrl": "http://www.opendata101.nl/ly/image/logo.png",
+        "name": "Open Data 101",
+        "shortUrl": "open-data-101.evently.io",
+        "startdate": "2014-04-24T07:00:00Z",
+        "teaserImages": [
+            "http://localhost:8080/conference//conference/img/slider/slide4.jpg",
+            "http://localhost:8080/conference//conference/img/slider/slide3.jpg",
+            "http://localhost:8080/conference//conference/img/slider/slide5.jpg"
+        ],
+        "tracks": [
+            {
+                "description": null,
+                "id": 1,
+                "location": null,
+                "name": "Main",
+                "presentations": [
+                    {
+                        "description": "Workshops waarin in teamverband een applicatie ontwikkeld zal worden met betrekking tot Open Data",
+                        "endTime": "2014-04-24T13:30:00Z",
+                        "id": 8,
+                        "speakers": [],
+                        "startTime": "2014-04-24T11:00:00Z",
+                        "title": "Workshops",
+                        "type": null
+                    },
+                    {
+                        "description": "Open Data en Amsterdam Oost",
+                        "endTime": "2014-04-24T09:35:00Z",
+                        "id": 6,
+                        "speakers": [],
+                        "startTime": "2014-04-24T09:15:00Z",
+                        "title": "Raadslid",
+                        "type": null
+                    },
+                    {
+                        "description": "Netwerk borrel",
+                        "endTime": "2014-04-24T15:00:00Z",
+                        "id": 10,
+                        "speakers": [],
+                        "startTime": "2014-04-24T14:15:00Z",
+                        "title": "Borrel",
+                        "type": null
+                    },
+                    {
+                        "description": "Een voedzame lunch en een uitgesproken mogelijkeheid om uw medegasten te leren kennen",
+                        "endTime": "2014-04-24T11:00:00Z",
+                        "id": 7,
+                        "speakers": [],
+                        "startTime": "2014-04-24T10:00:00Z",
+                        "title": "Lunch",
+                        "type": null
+                    },
+                    {
+                        "description": "Afsluiting en bekendmaking winnaars",
+                        "endTime": "2014-04-24T14:15:00Z",
+                        "id": 9,
+                        "speakers": [],
+                        "startTime": "2014-04-24T13:30:00Z",
+                        "title": "Afsluiting",
+                        "type": null
+                    },
+                    {
+                        "description": "Opening en registratie van gasten",
+                        "endTime": "2014-04-24T08:00:00Z",
+                        "id": 1,
+                        "speakers": [],
+                        "startTime": "2014-04-24T07:30:00Z",
+                        "title": "Registration",
+                        "type": null
+                    },
+                    {
+                        "description": "Open Data en hulpdiensten Amsterdam",
+                        "endTime": "2014-04-24T09:15:00Z",
+                        "id": 5,
+                        "speakers": [],
+                        "startTime": "2014-04-24T08:55:00Z",
+                        "title": "Bart van Leeuwen",
+                        "type": null
+                    },
+                    {
+                        "description": "Wat is Open Data? Wat kunnen de betrokken partijen ermee?",
+                        "endTime": "2014-04-24T08:55:00Z",
+                        "id": 4,
+                        "speakers": [],
+                        "startTime": "2014-04-24T08:35:00Z",
+                        "title": "Paul Suikerbuik",
+                        "type": null
+                    },
+                    {
+                        "description": "Intro door dagvoorzitter Lex Slaghuis",
+                        "endTime": "2014-04-24T08:15:00Z",
+                        "id": 2,
+                        "speakers": [],
+                        "startTime": "2014-04-24T08:00:00Z",
+                        "title": "Keynote",
+                        "type": null
+                    },
+                    {
+                        "description": "Open Data en OV Amsterdam",
+                        "endTime": "2014-04-24T08:35:00Z",
+                        "id": 3,
+                        "speakers": [],
+                        "startTime": "2014-04-24T08:15:00Z",
+                        "title": "Erik Romijn",
+                        "type": null
+                    }
+                ],
+                "type": null
+            }
+        ],
+        "vanityUrl": null
+    },
+    {
+        "description": "A one-day conference that celebrates the art, craft, science but foremost the joy of software development",
+        "enddate": null,
+        "id": 5,
+        "location": null,
+        "logoUrl": "http://joyofcoding.org/img/logo.png",
+        "name": "Joy of Coding",
+        "shortUrl": "joy-of-coding.evently.io",
+        "startdate": "2014-03-06T23:00:00Z",
+        "teaserImages": [
+            "http://localhost:8080/conference//conferencehttp://joyofcoding.org/img/logo.png"
+        ],
+        "tracks": [
+            {
+                "description": "",
+                "id": 6,
+                "location": "Main hall",
+                "name": "Unconference",
+                "presentations": [
+                    {
+                        "description": null,
+                        "endTime": "2014-03-07T08:20:00Z",
+                        "id": 23,
+                        "speakers": [],
+                        "startTime": "2014-03-07T07:30:00Z",
+                        "title": "Registration",
+                        "type": "registration"
+                    },
+                    {
+                        "description": "",
+                        "endTime": "2014-03-07T08:30:00Z",
+                        "id": 24,
+                        "speakers": [],
+                        "startTime": "2014-03-07T08:20:00Z",
+                        "title": "Opening",
+                        "type": null
+                    },
+                    {
+                        "description": "",
+                        "endTime": "2014-03-07T17:20:00Z",
+                        "id": 26,
+                        "speakers": [],
+                        "startTime": "2014-03-07T16:30:00Z",
+                        "title": "Drinks & snacks, sponsored by GitHub",
+                        "type": "break"
+                    },
+                    {
+                        "description": "What can be more Joyful then flying a robot with you computer? Flying a room full of robots!  Come and join the fun in this exciting side track where you get the chance to fly a parrot ardrone. We will provide the drones, you must provide the brains.  In this side track we have setup various drones and virtual machines that allow you to program the drones in various languages. After a short safety instruction you will be able to control the drones from your laptop.",
+                        "endTime": "2014-03-07T11:20:00Z",
+                        "id": 25,
+                        "speakers": [
+                            {
+                                "biography": "Daan van Berkel is an enthusiastic software craftsman with a knack for presenting technical details in a clear and concise manner. Driven by the desire for understanding complex matters Daan is always on the lookout for innovative uses of software.",
+                                "company": "",
+                                "firstName": "Daan",
+                                "id": 1,
+                                "imageUrl": "",
+                                "lastName": "van Berkel"
+                            }
+                        ],
+                        "startTime": "2014-03-07T09:30:00Z",
+                        "title": "Come fly with me",
+                        "type": null
+                    }
+                ],
+                "type": null
+            },
+            {
+                "description": "",
+                "id": 3,
+                "location": "Stokerij",
+                "name": "Presentations",
+                "presentations": [
+                    {
+                        "description": "As software engineers, we spend most of our working days designing, building, testing and supporting software systems.  Although certainly fun and joyful, there are unfortunately situations in which we find ourselves with problems we cannot solve on our own. Or even worse, we find ourselves in a situation in which we know a solution, but cannot convince our colleagues or employers that this solution will help!\n Fortunately, there are thousands of researchers all over the world studying this phenomenon of software engineering. These people perform experiments and case-studies, and publish the results of these studies in order to advance the current state of the art and make sure we are able to improve the way we do software engineering.\n When was the last time you read or used something research has introduced? In many cases, the answer to this question is downright 'never'.\n In this session, we will discuss why so many software engineers do not know about software engineering research, why you should care about the work researchers do, and, more importantly, how you can use the techniques used by researchers in making a better case for your solution. At the end, you will have a better understanding of the research world as a whole, and have practical pointers for making your own programming more joyful.",
+                        "endTime": "2014-03-07T15:20:00Z",
+                        "id": 17,
+                        "speakers": [
+                            {
+                                "biography": "Eric Bouwers works as a software engineer at the Software Improvement Group. For the past six years he has been advising companies on how to develop software, and also developed software to analyze software systems. In addition, he has gotten to know the research world by working on his PhD at the Technical University of Delft over the past five years.",
+                                "company": "Software Improvement Group",
+                                "firstName": "Erik",
+                                "id": 8,
+                                "imageUrl": "",
+                                "lastName": "Bouwers"
+                            }
+                        ],
+                        "startTime": "2014-03-07T14:30:00Z",
+                        "title": "The scientific programmer",
+                        "type": null
+                    },
+                    {
+                        "description": "To be determined...",
+                        "endTime": "2014-03-07T10:20:00Z",
+                        "id": 13,
+                        "speakers": [
+                            {
+                                "biography": "Avdi Grimm has been hacking Ruby code for over 10 years, and is still loving it. He is chief aeronaut at ShipRise, head chef at RubyTapas.com, and a Ruby Rogue. He lives in southern Pennsylvania with his wife and a steadily incrementing number of children, and in his copious spare time blogs and podcasts at Virtuous Code and Wide Teams.",
+                                "company": "",
+                                "firstName": "Avdi",
+                                "id": 13,
+                                "imageUrl": "http://gravatar.com/avatar/637d830c64a99e28e0e7f2dfbfd2ea01",
+                                "lastName": "Grimm"
+                            }
+                        ],
+                        "startTime": "2014-03-07T09:30:00Z",
+                        "title": "To be determined...",
+                        "type": null
+                    },
+                    {
+                        "description": "\"The fastest teams I've ever worked with have been agile. Not big-A, all-about-the-TDD, automate-everything, methodology-over-thinking Agile, but quietly-getting-on-with-business, delivering-the-goods, making-the-trade-offs agile. Think agile manifesto over agile methodology. It turns out the things I thought were great agile practices, while useful in certain circumstances, are by no means the whole story. Kaizen, or continuous improvement, must be coupled with kaikaku, or abrupt change, in order to avoid getting stuck in the local maximum of 1990s Agile methods. This talk is about how really high-performing teams work. Not just one or two flukes but enough that there might be something to it. The patterns and ideas in this talk are genuine experiences from active practitioners. This is agile in actuality. Agile is an attitude, not a rulebook.\"",
+                        "endTime": "2014-03-07T09:20:00Z",
+                        "id": 18,
+                        "speakers": [
+                            {
+                                "biography": "Programmer and organizational change specialist Dan North applies principles from lean operations and agile software development to help organizations align their technology capabilities with their business objectives. With over twenty years of experience in IT, Dan is a frequent speaker at technology conferences worldwide, has published feature articles in numerous software and business publications, and contributed to The RSpec Book: Behaviour Driven Development with RSpec, Cucumber, and Friends and 97 Things Every Programmer Should Know: Collective Wisdom from the Experts. The originator of Behaviour-Driven Development (BDD) and Deliberate Discovery, Dan is currently working on his book, Accelerated Agile \u2013 from months to minutes, and helping organizations radically improve their delivery. He blogs at http://dannorth.net/blog",
+                                "company": null,
+                                "firstName": "Dan",
+                                "id": 7,
+                                "imageUrl": "",
+                                "lastName": "North"
+                            }
+                        ],
+                        "startTime": "2014-03-07T08:30:00Z",
+                        "title": "Accelerating Agile: hyper-performing without the hype",
+                        "type": null
+                    },
+                    {
+                        "description": "To be determined...",
+                        "endTime": "2014-03-07T13:20:00Z",
+                        "id": 15,
+                        "speakers": [
+                            {
+                                "biography": "Eric Bouwers works as a software engineer at the Software Improvement Group. For the past six years he has been advising companies on how to develop software, and also developed software to analyze software systems. In addition, he has gotten to know the research world by working on his PhD at the Technical University of Delft over the past five years.",
+                                "company": "Software Improvement Group",
+                                "firstName": "Erik",
+                                "id": 8,
+                                "imageUrl": "",
+                                "lastName": "Bouwers"
+                            }
+                        ],
+                        "startTime": "2014-03-07T12:30:00Z",
+                        "title": "To be determined...",
+                        "type": null
+                    },
+                    {
+                        "description": "You come to conferences, you read blogs, and you hear about new languages that sound interesting. Even useful. But your architects or operations guys or senior management won\u2019t let you try a \u201crisky\u201d new technology in your nice, stable application.\n What do you do? Do you abandon your dreams of making it all better with Scala? Do you go home and play with Clojure in a pet project on your spare time? How do you know if these tools will live up to your expectations in a Real Life Environment?\n In this talk, Trisha will show the real world example of how the MongoDB Java Driver team use Groovy - in a library that, when built, cannot contain additional dependencies, and must run in plain Java runtime environments.\n How? By cheating, and using Gradle for building and Spock for testing, this Java team got to use a new JVM language in anger with the goal of making their lives easier. And it worked.  Mostly.",
+                        "endTime": "2014-03-07T14:20:00Z",
+                        "id": 16,
+                        "speakers": [
+                            {
+                                "biography": "Trisha is a developer at MongoDB Inc, where she maintains the Java driver. She has expertise in Java high performance systems, is passionate about enabling developer productivity, and has a wide breadth of industry experience from the 12 years she's been a professional developer. Trisha is a leader in the London Java Community and involved in the Graduate Developer Community, she believes we shouldn't all have to make the same mistakes again and again.",
+                                "company": "MongoDB Inc",
+                                "firstName": "Trisha",
+                                "id": 14,
+                                "imageUrl": "http://gravatar.com/avatar/036bc6990a7ba39ac82cbfa266b7d326",
+                                "lastName": "Gree"
+                            }
+                        ],
+                        "startTime": "2014-03-07T13:30:00Z",
+                        "title": "How to Sneak a New Language into your Codebase ",
+                        "type": null
+                    },
+                    {
+                        "description": "Extensibility in programming means that you can add features by adding code, without having to modify existing code. For instance, to add a new data variant in OO, you may add a new subclass. Or in functional programming, it's easy to add new operations over a data type. However, the kind of extensibility offered by OO does not work in FP (try adding a constructor), and vice versa (adding an operation over a family of classes).  This deep and inherent trade-off has become known as the \"expression problem\". Object algebras are a new and simple solution to the expression problem which works in mainstream programming languages such as Java, C#, Dart, and Scala. In this session I'll introduce the expression problem in some depth, and show how the object algebra style of programming is a solution to it.",
+                        "endTime": "2014-03-07T11:20:00Z",
+                        "id": 14,
+                        "speakers": [
+                            {
+                                "biography": "Tijs van der Storm is researcher at the Dutch national institute for computer science and mathematics (CWI) and teaches Software Construction at the University of Amsterdam. His research interests are domain-specific languages, language workbenches, and programming language design. He is one of the designers of the meta-programming language Rascal and core developer of the Ens\u014d programming framework. Apart from that, he likes literature and hates ugly code.",
+                                "company": null,
+                                "firstName": "Tijs",
+                                "id": 12,
+                                "imageUrl": "",
+                                "lastName": "van der Storm"
+                            }
+                        ],
+                        "startTime": "2014-03-07T10:30:00Z",
+                        "title": "Who's Afraid of Object Algebras?",
+                        "type": null
+                    }
+                ],
+                "type": null
+            },
+            {
+                "description": "",
+                "id": 2,
+                "location": "Rotterdam",
+                "name": "Hands-on 1",
+                "presentations": [
+                    {
+                        "description": "The Software Engineering Master of Science is a one-year intensive programme at Universiteit van Amsterdam, which is unique in many aspects and specialises in providing solid practical engineering foundations for already experienced software developers. The programme focuses on hands-on activities revolving around constructing reliable software, testing it, benchmarking, collaborating, formulating requirements, comparing various techniques, assessing and choosing languages and technologies.\n In this session, the attendees will be faced with some challenges that we think should be easily overcome by accomplished Masters in software engineering. The participants can then propose their solutions, compare them with one another, openly discuss their advantages and spot their flaws, in the process of embracing the problem, dissecting it and arriving at a satisfying solution. The level of challenges presented will correspond to honours track assignments and exam questions of the actual programme.",
+                        "endTime": "2014-03-07T15:20:00Z",
+                        "id": 12,
+                        "speakers": [
+                            {
+                                "biography": "Vadim Zaytsev, also known as @grammarware, currently works as a lecturer and the coordinator of the Software Engineering Master of Science programme at Universiteit van Amsterdam. He has previously been a researcher at Centrum Wiskunde & Informatica (CWI) and Universit\u00e4t Koblenz, a PhD student at Vrije Universiteit Amsterdam, a MSc student in Universiteit Twente, a math student in Russia, a hackers community moderator, a wiki admin, a programming teacher and competition jury, an Assembly coder, a virmaker and some kind of programmer in every language he came across. Besides hardcore software language engineering with grammar(ware) technology, his interests and research activities tend to invade such topics as software quality assessment, source code analysis and transformation, modelling, metamodelling, megamodelling, programming paradigms, declarative and functional programming, dynamic aspects of software languages, maintenance and renovation of legacy systems and others. He is also actively hacking and engineering software, practicing open science, contributing to a range of open data and open source projects, co-organising and presenting at various events. More information can be found at http://grammarware.net",
+                                "company": "",
+                                "firstName": "Vadim",
+                                "id": 11,
+                                "imageUrl": "",
+                                "lastName": "Zaytsev"
+                            }
+                        ],
+                        "startTime": "2014-03-07T13:30:00Z",
+                        "title": "The Day Of The Master",
+                        "type": null
+                    },
+                    {
+                        "description": "Is your web application secure?  How can you tell?\n This workshop gives you an opportunity to experience your own web application from the Dark Side, from the perspective of a hacker.  Forget about functional requirements, these two hours we will be exploring ways to break and abuse your application.\n We will be using the 2013 OWASP Top 10 as a guideline for finding vulnerabilities and a broad set of tools in neatly prepared virtual machine, ready to be used.\n You'll have fun tweaking HTTP requests, stealing session cookies and injecting all kinds of stuff into your web app. There will be some brute forcing and fuzzing as well :)\n For those of you that cannot bring their own web application we will provide one with plenty of holes.",
+                        "endTime": "2014-03-07T11:20:00Z",
+                        "id": 11,
+                        "speakers": [
+                            {
+                                "biography": "Erik Hooijmeijer is principal developer and certified ethical hacker at 42.\nHe studied electronics and thought to keep computers as a hobby.  Reality soon proved otherwise. Erik has been developing software in different disciplines for 28 years. Just doing software development as a profession is not enough for him so there have been all kinds of special projects, many of which can be found at www.ctrl-alt-dev.nl.",
+                                "company": "",
+                                "firstName": "Erik",
+                                "id": 2,
+                                "imageUrl": "",
+                                "lastName": "Hooijmeijer"
+                            }
+                        ],
+                        "startTime": "2014-03-07T09:30:00Z",
+                        "title": "Hack your own web-app",
+                        "type": null
+                    }
+                ],
+                "type": null
+            },
+            {
+                "description": "",
+                "id": 5,
+                "location": "Amsterdam",
+                "name": "Hands-on 2",
+                "presentations": [
+                    {
+                        "description": "Graphs are one of the best abstractions we have for modelling connectedness. Graph databases, in turn, are one of the best tools at our disposal for modelling, storing and querying complex, densely-connected data. Today, graphs and graph databases are helping solve some of the world's most challenging data problems, in domains as diverse as search, social networking, recommendations, datacentre management, logistics, entitlements and authorization, route finding, network monitoring, and fraud analysis.\n In this workshop we'll take a peek inside the graphista's toolbox. We'll look at some common graph data structures, and the graph database queries that unleash the insights buried inside them. We'll survey some of the tools and techniques you can use to graph your world, experiment with graph data, and apply it in your own applications. And we'll draw lots of circles and lines. We might even colour some of them in.",
+                        "endTime": "2014-03-07T11:20:00Z",
+                        "id": 21,
+                        "speakers": [
+                            {
+                                "biography": "Ian works on research and development for future versions of the Neo4j graph database. Harbouring a long-held interest in connected data, he was for many years one of the foremost proponents of REST architectures, before turning his focus from the Web's global graph to the realm of graph databases. As Neo Technology\u2019s Director of Customer Success, he has worked extensively with customers to design and develop graph database solutions. He is a coauthor of 'Graph Databases' and 'REST in Practice' (O'Reilly), and a contributor to 'REST: From Research to Practice' (Springer) and 'Service Design Patterns' (Addison-Wesley). He blogs at http://iansrobinson.com, and tweets at @iansrobinson",
+                                "company": "",
+                                "firstName": "Ian",
+                                "id": 6,
+                                "imageUrl": "",
+                                "lastName": "Robinson"
+                            }
+                        ],
+                        "startTime": "2014-03-07T09:30:00Z",
+                        "title": "Let Me Graph That For You: An Introduction to Neo4j ",
+                        "type": null
+                    },
+                    {
+                        "description": " If you\u2019ve ever struggled with programming a solution for a problem that had easy to describe constraints, but is difficult to implement, this session may be for you. Good programmers are lazy - so why waste your time implementing a solution when the computer can do it for you?\n In this session you will learn how to let the computer solve your problems with declarative programming. It is a programming paradigm that allows the programmer to describe a problem and the requirements on the solutions in an intuitive way, rather than describing the algorithm to find the solutions to the problem.  ASP (Answer Set Programming) is a declarative programming paradigm with its roots in knowledge representation and reasoning, a subset of artificial intelligence. In this session we\u2019ll introduce you to the basic principles of this programming paradigm through guided exercises.  You will get acquainted with concepts like negation as failure, closed world assumption and model generation.\n Join us for some hands-on fun! Learn how describing your problems is sometimes enough to get them solved.",
+                        "endTime": "2014-03-07T15:20:00Z",
+                        "id": 22,
+                        "speakers": [
+                            {
+                                "biography": "Marina De Vos is a senior lecturer in the department of Computer Science at the University of Bath. Her main research area is themed \"Knowledge Representation and Reasoning\". In other words she tries to make programs reasoning \"intelligently\" about the information they have and make decisions on the basis of that reasoning process.  Her main tool in this is a declarative programming paradigm called answer set programming.",
+                                "company": "University of Bath",
+                                "firstName": "Marina",
+                                "id": 4,
+                                "imageUrl": "",
+                                "lastName": "de Vos"
+                            },
+                            {
+                                "biography": "Willem van den Ende works as an independent software developer, trainer and consultant. He focuses on systemic thinking and effective development practices inspired by eXtreme Programming, agile and lean. He is co-founder of xp days benelux and agile open, and was programme chair of SPA and board member of the agile alliance. He presents at a software conference somewhere about once a month. He is based in Bath. He works through http://evolvebeyond.com/coaching/, http://www.qwan.eu and his own company http://www.livingsoftware.nl",
+                                "company": "",
+                                "firstName": "Willem",
+                                "id": 5,
+                                "imageUrl": "",
+                                "lastName": "van den Ende"
+                            }
+                        ],
+                        "startTime": "2014-03-07T13:30:00Z",
+                        "title": "Say what you want not how you want it done",
+                        "type": null
+                    }
+                ],
+                "type": null
+            },
+            {
+                "description": "",
+                "id": 4,
+                "location": "Branderij",
+                "name": "Hands-on 3",
+                "presentations": [
+                    {
+                        "description": "Writing concurrent software is traditionally considered very troublesome. Given only threads and locks this view is wholly justified. This workshop introduces the actor model: an alternative concurrency model (used by Scala and Erlang) which greatly simplifies concurrent programming.",
+                        "endTime": "2014-03-07T15:20:00Z",
+                        "id": 20,
+                        "speakers": [
+                            {
+                                "biography": "Michel Rijnders (@mrijn): Programmer turned philosopher turned software engineer; main interests: functional programming and distributed systems. Organizer of Cross Functional AMS http://meetup.com/funadam.",
+                                "company": "",
+                                "firstName": "Michel",
+                                "id": 9,
+                                "imageUrl": "",
+                                "lastName": "Rijnders"
+                            },
+                            {
+                                "biography": "Matthijs Ooms (@matthijsooms) is senior software engineer at TTY. He is part of a team that build mobile apps for startups such as Searcle and Djuke.it, as well as backends for those mobile apps and websites such as adformatie.nl and youp.nl. Co-organizer of Cross Functional AMS.",
+                                "company": "",
+                                "firstName": "Matthijs",
+                                "id": 10,
+                                "imageUrl": "",
+                                "lastName": "Ooms"
+                            }
+                        ],
+                        "startTime": "2014-03-07T13:30:00Z",
+                        "title": "An Introduction to Actors and Concurrency",
+                        "type": null
+                    },
+                    {
+                        "description": "Code coverage is a blunt tool that says very little about the quality of your test suite. Mutation testing on the other hand is very informative.\n In this workshop we'll talk about the basis of mutation testing, what tools there are out there and how they can fit into your development process. We'll also have some hands-on exercises to show the power of mutation testing techniques, as well as the dangers and costs of them.\n There is a well maintained tool for Java (PITest) and a less well maintained tool for .NET (NinjaTurtles). We'll try using both/either, so come with laptops and your favourite IDE (although I will be asking you to work in pairs, sharing a single machine).",
+                        "endTime": "2014-03-07T11:20:00Z",
+                        "id": 19,
+                        "speakers": [
+                            {
+                                "biography": "Coach, Designer, Analyst and Developer for over 30 years.\nI have been involved in the full development lifecycle with experience that ranges from Architecture to Support, from BASIC to Ruby. Recently I have been helping teams adopt and refine their agile practices, with a particular focus on automated testing.\nRegular speaker at conferences and occasional contributor to software journals. Contributing author to \"97 Things Every Programmer Should Know\" - O'Reilly. Currently writing The Cucumber-JVM Book for Pragmatic Programmers",
+                                "company": "",
+                                "firstName": "Seb",
+                                "id": 3,
+                                "imageUrl": "",
+                                "lastName": "Rose"
+                            }
+                        ],
+                        "startTime": "2014-03-07T09:30:00Z",
+                        "title": "Mutation testing for fun and profit",
+                        "type": null
+                    }
+                ],
+                "type": null
+            }
+        ],
+        "vanityUrl": null
+    }
+]

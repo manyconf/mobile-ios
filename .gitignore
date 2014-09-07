@@ -1,0 +1,20 @@
+# WARNING:
+# comments can only be made on separate comment lines, not as a comment after
+# a filename! See also http://stackoverflow.com/questions/23017183
+
+# cocoapods stuff to ignore
+Pods
+Podfile.lock
+
+# Libraries
+Crashlytics.framework
+
+###
+### Generic OS files to ignore
+###
+
+# vi swap files
+*.swp
+
+# OS X Finder cache files
+.DS_Store
