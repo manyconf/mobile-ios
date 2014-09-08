@@ -6,19 +6,19 @@
 #ifndef CN_CNConstants_h
 #define CN_CNConstants_h
 #include "TargetConditionals.h"
-#include "CN_PrivateConstants.h"
+#include "CNPrivateConstants.h"
 
 // URLs
 
 #if !(TARGET_IPHONE_SIMULATOR)
-//#define HOSTNAME                            @"192.168.1.82"
-#define HOSTNAME                            @"www.manyconf.com:80"
+#define HOSTNAME                            @"www.manyconf.com"
+#define PORT                                80
 #else
-#define HOSTNAME                            @"localhost:8080"
-#define HOSTNAME                            @"www.manyconf.com:80"
+#define HOSTNAME                            @"www.manyconf.com"
+#define PORT                                80
 #endif
-#define BASE_URL                            @""
-#define CONFERENCE_LIST_URL                 @"http://" HOSTNAME BASE_URL @"/api/1.0/conferences?api_key=" API_KEY
+#define CONFERENCE_LIST_URL_IOS7            @"http://" HOSTNAME @"/api/1.0/conferences?api_key=" API_KEY @"&sort=startdate&order=desc"
+#define CONFERENCE_LIST_URL                 @"/api/1.0/conferences"
 
 // Getting data
 

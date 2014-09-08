@@ -59,11 +59,31 @@
 
 - (void)dataFromNetwork
 {
-    NSString *urlAsString = CONFERENCE_LIST_URL;
-    DLog(@"Sending request to URL [%@]", urlAsString);
-    NSURL *url = [[NSURL alloc] initWithString:urlAsString];
+    // As soon as we're on iOS 8, use the following code
+    /*
+    NSURLComponents *components = [NSURLComponents new];
+    components.scheme = @"http";
+    components.host = HOSTNAME;
+    components.path = CONFERENCE_LIST_URL;
+    
+    NSArray *params = @[
+                        [[NSURLQueryItem alloc] initWithName:@"api_key" value:API_KEY],
+                        [[NSURLQueryItem alloc] initWithName:@"sort" value:@"startdate"],  // or @"dateCreated"
+                        [[NSURLQueryItem alloc] initWithName:@"order" value:@"asc"],   // or @"desc"
+                        [[NSURLQueryItem alloc] initWithName:@"max" value:@"25"],
+                        [[NSURLQueryItem alloc] initWithName:@"offset" value:@"0"],
+                        ];
+    
+    components.queryItems = params;
+    NSURL *url = [components URL];
+     */
+    NSURL *url = [[NSURL alloc] initWithString:CONFERENCE_LIST_URL_IOS7];
+    
+    DLog(@"Sending request to URL [%@]", [url absoluteString]);
     NSMutableURLRequest* request = [[NSMutableURLRequest alloc] initWithURL:url];
-//    [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+    [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+    
+    // Groovy screws up the JSON if we pass this
 //    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
     self.error = nil;

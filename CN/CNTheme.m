@@ -28,7 +28,7 @@
 - (void)initialize
 {
     if(SINGLE_CONF_APP) {
-        DLog(@"Loading opendata101 theme");
+        DLog(@"Loading singleconf theme");
         UIColor *darkgray = UIColorFromRGB(0x353534);
         UIColor *lightblue = UIColorFromRGB(0x00adf3);
         self.plainTextColor = darkgray;
@@ -38,8 +38,8 @@
         self.backgroundColor = [UIColor whiteColor];
         self.statusBarStyle = UIStatusBarStyleDefault;
         self.emphasizedColor = lightblue;
-        self.regularFontName = @"Raleway-Regular";
-        self.boldFontName = @"Raleway-Bold";
+        self.regularFontName = [UIFont systemFontOfSize:10.0].fontName;
+        self.boldFontName = [UIFont boldSystemFontOfSize:10.0].fontName;
 
     } else {
         DLog(@"Loading standard theme");
@@ -50,8 +50,8 @@
         self.backgroundColor = [UIColor whiteColor];
         self.statusBarStyle = UIStatusBarStyleLightContent;
         self.emphasizedColor = UIColorFromRGB(0xff5b50);
-        self.regularFontName = OPENSANS_REGULAR_FONT;
-        self.boldFontName = OPENSANS_BOLD_FONT;
+        self.regularFontName = [UIFont systemFontOfSize:10.0].fontName;
+        self.boldFontName = [UIFont boldSystemFontOfSize:10.0].fontName;
     }
     
 }

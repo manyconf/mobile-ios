@@ -14,7 +14,7 @@
 @property NSString *logoURL;
 @property NSString *shortURL;
 @property NSString *website;
-@property NSString *description;
+@property NSString *descr;
 @property NSDate *startdate;
 @property NSDate *enddate;
 @property CNLocation *location;

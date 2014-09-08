@@ -30,7 +30,6 @@
     
     // take a look at all elements in the array
     for (id conferenceElement in parsedObject) {
-//        DLog(@"Element: %@", [conferenceElement description]);
         NSDictionary *conferenceDic = (NSDictionary*)conferenceElement;
     
         // Get conference basics
@@ -40,7 +39,7 @@
         conference.logoURL = [conferenceDic valueForKey:@"logoUrl"];
         conference.shortURL = [conferenceDic valueForKey:@"shortUrl"];
         conference.website = [conferenceDic valueForKey:@"website"];
-        conference.description = [conferenceDic valueForKey:@"description"];
+        conference.descr = [conferenceDic valueForKey:@"description"];
         conference.nTotalPresentations = 0;
         conference.tracks = @[];
         conference.speakers = [[NSMutableDictionary alloc] init];

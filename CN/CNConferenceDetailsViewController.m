@@ -90,10 +90,10 @@
         self.title = self.conference.name;
     }
     
-    if([self.conference.description isEqual:[NSNull null]]) {
+    if([self.conference.descr isEqual:[NSNull null]]) {
         self.descriptionTextView.text = @"";
     } else {
-        self.descriptionTextView.text = self.conference.description;
+        self.descriptionTextView.text = self.conference.descr;
     }
     
     if([self.conference.location.locationID isEqual:[NSNull null]] || [[self.conference.location asString] length] == 0) {

@@ -1,10 +1,10 @@
 #import "CNAppDelegate.h"
 #import "CNConstants.h"
 #import "CNPrivateConstants.h"
+#import "DVConstants.h"
 #ifdef ANALYTICS
 #import <Crashlytics/Crashlytics.h>
 #endif
-#import "DVConstants.h"
 
 
 

@@ -12,20 +12,24 @@
 	<dict>
 		<key>1856685F5D2C0806BE96FBE7AF3C76FBB0DB02AF</key>
 		<string>ssh://bitbucket.org/bodiam/conference.git</string>
+		<key>88FA9899CD7AFA0777607CBC9937BD1E796F8567</key>
+		<string>github.com:manyconf/mobile-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ios/Conference.xcworkspace</string>
+	<string>Conference.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1856685F5D2C0806BE96FBE7AF3C76FBB0DB02AF</key>
-		<string>../..</string>
+		<string>../../conference</string>
+		<key>88FA9899CD7AFA0777607CBC9937BD1E796F8567</key>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://bitbucket.org/bodiam/conference.git</string>
+	<string>github.com:manyconf/mobile-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1856685F5D2C0806BE96FBE7AF3C76FBB0DB02AF</string>
+	<string>88FA9899CD7AFA0777607CBC9937BD1E796F8567</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>1856685F5D2C0806BE96FBE7AF3C76FBB0DB02AF</string>
 			<key>IDESourceControlWCCName</key>
 			<string>conference</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>88FA9899CD7AFA0777607CBC9937BD1E796F8567</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mobile-ios</string>
 		</dict>
 	</array>
 </dict>
