@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="csD-9L-vlC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="csD-9L-vlC">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--Conference List View Controller - List of conferences-->
+        <!--List of conferences-->
         <scene sceneID="OSg-3N-2wU">
             <objects>
                 <tableViewController id="SPA-ZV-ksz" customClass="CNConferenceListViewController" sceneMemberID="viewController">
@@ -278,7 +277,7 @@
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="conference_example_logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yRf-8c-3C0">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder_light.png" translatesAutoresizingMaskIntoConstraints="NO" id="yRf-8c-3C0">
                                         <rect key="frame" x="0.0" y="320" width="320" height="128"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="1c6-GQ-G2S"/>
@@ -668,10 +667,9 @@ Practicalities: please bring a laptop or pair with someone. Make sure you have V
         </scene>
     </scenes>
     <resources>
-        <image name="conference_example_logo.jpg" width="1772" height="409"/>
         <image name="opendata_logo.png" width="962" height="339"/>
+        <image name="placeholder_light.png" width="619" height="439"/>
     </resources>
-    <color key="tintColor" red="0.88654792308807373" green="0.14306411920180045" blue="0.1834839093929134" alpha="1" colorSpace="calibratedRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
@@ -682,4 +680,5 @@ Practicalities: please bring a laptop or pair with someone. Make sure you have V
         <segue reference="dRI-7B-r9h"/>
         <segue reference="N9s-20-thP"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.88654792308807373" green="0.14306411920180045" blue="0.1834839093929134" alpha="1" colorSpace="calibratedRGB"/>
 </document>

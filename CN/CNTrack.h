@@ -10,7 +10,7 @@
 
 @property NSNumber *trackID;
 @property NSString *name;
-@property NSString *description;
+@property NSString *descr;
 @property NSString *location;
 @property NSString *type;     // workshop, presentation, etc
 @property NSArray *presentations;

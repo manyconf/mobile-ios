@@ -46,4 +46,4 @@
 
 // Macros to turn debugging options on/off
 
-#define DEBUG_VIEWS                     1
+#define DEBUG_VIEWS                     0

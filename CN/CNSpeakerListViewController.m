@@ -59,7 +59,7 @@
     
     CNSpeaker *s = self.conference.speakers.allValues[indexPath.row];
     
-    cell.textLabel.text = [s fullName];
+    cell.textLabel.text = s.name;
     
     if([s.company isEqual:[NSNull null]]) {
         cell.detailTextLabel.text = @"";

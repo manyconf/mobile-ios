@@ -10,7 +10,7 @@
 {
     [super viewDidLoad];
 
-    self.nameLabel.text = [self.speaker fullName];
+    self.nameLabel.text = self.speaker.name;
 
     if([self.speaker.company isEqual:[NSNull null]]) {
         self.companyLabel.text = @"";

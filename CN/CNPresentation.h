@@ -10,7 +10,7 @@
 
 @property NSNumber *presID;
 @property NSString *title;
-@property NSString *description;
+@property NSString *descr;
 @property NSString *type;
 @property NSDate *starttime;
 @property NSDate *endtime;

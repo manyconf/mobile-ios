@@ -9,14 +9,12 @@
 @interface CNSpeaker : NSObject
 
 @property NSNumber *speakerID;
-@property NSString *firstName;
-@property NSString *lastName;
+@property NSString *name;
 @property NSString *biography;
 @property NSString *email;
 @property NSString *company;
 
 /** Convenience functions */
-- (NSString*)fullName;
 + (NSString*)stringFromSpeakerArray:(NSArray*)speakerList;
 
 @end

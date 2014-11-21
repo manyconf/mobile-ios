@@ -26,7 +26,6 @@
 		894EAC45188D304C00CD1EF7 /* CNConference.m in Sources */ = {isa = PBXBuildFile; fileRef = 894EAC44188D304C00CD1EF7 /* CNConference.m */; };
 		898ABDBA18FAD5CD006C9A75 /* CNLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 898ABDB918FAD5CD006C9A75 /* CNLocation.m */; };
 		898ABE1718FD086F006C9A75 /* image_not_loaded.png in Resources */ = {isa = PBXBuildFile; fileRef = 898ABE1618FD086F006C9A75 /* image_not_loaded.png */; };
-		898B160C18956079005A62D2 /* conference_example_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 898B160B18956079005A62D2 /* conference_example_logo.jpg */; };
 		898B160F18956803005A62D2 /* CNPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898B160E18956803005A62D2 /* CNPresentationViewController.m */; };
 		898B1612189568AB005A62D2 /* CNPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 898B1611189568AB005A62D2 /* CNPresentation.m */; };
 		898B161518956A54005A62D2 /* CNSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 898B161418956A54005A62D2 /* CNSpeaker.m */; };
@@ -38,13 +37,13 @@
 		898B163318967E86005A62D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 898B163218967E86005A62D2 /* main.m */; };
 		898B163718967EA2005A62D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 898B163518967EA2005A62D2 /* InfoPlist.strings */; };
 		89A45EE718F17C2000CEB53E /* CNStartupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A45EE618F17C2000CEB53E /* CNStartupViewController.m */; };
-		89A45EE918F1930200CEB53E /* apple-touch-icon_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A45EE818F1930200CEB53E /* apple-touch-icon_120x120.png */; };
 		89A45EED18F65A8400CEB53E /* CNTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A45EEC18F65A8400CEB53E /* CNTheme.m */; };
 		89A45F1218F9583700CEB53E /* cell_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A45F1118F9583700CEB53E /* cell_gradient.png */; };
 		89A45F1418F959E900CEB53E /* tableviewcell_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A45F1318F959E900CEB53E /* tableviewcell_background.png */; };
 		89A45F1818F9901400CEB53E /* tableviewcell_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A45F1718F9901400CEB53E /* tableviewcell_background@2x.png */; };
 		89A45F1B18F9911300CEB53E /* tableviewcell_high_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A45F1918F9911300CEB53E /* tableviewcell_high_background.png */; };
 		89A45F1C18F9911300CEB53E /* tableviewcell_high_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A45F1A18F9911300CEB53E /* tableviewcell_high_background@2x.png */; };
+		89CE587019EAB78C00388F22 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CE586F19EAB78C00388F22 /* Launch.storyboard */; };
 		89FBB87C188E7715008624ED /* CNConferenceBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FBB87B188E7715008624ED /* CNConferenceBuilder.m */; };
 		89FBB882188E8280008624ED /* CNServiceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FBB881188E8280008624ED /* CNServiceHandler.m */; };
 		EDC86C2F1FC543E79E804769 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C549DF91210F440B8A730DCA /* libPods.a */; };
@@ -91,7 +90,6 @@
 		898ABDB818FAD5CD006C9A75 /* CNLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNLocation.h; sourceTree = "<group>"; };
 		898ABDB918FAD5CD006C9A75 /* CNLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNLocation.m; sourceTree = "<group>"; };
 		898ABE1618FD086F006C9A75 /* image_not_loaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_not_loaded.png; path = ../assets/image_not_loaded.png; sourceTree = "<group>"; };
-		898B160B18956079005A62D2 /* conference_example_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = conference_example_logo.jpg; path = ../assets/conference_example_logo.jpg; sourceTree = "<group>"; };
 		898B160D18956803005A62D2 /* CNPresentationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNPresentationViewController.h; sourceTree = SOURCE_ROOT; };
 		898B160E18956803005A62D2 /* CNPresentationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNPresentationViewController.m; sourceTree = SOURCE_ROOT; };
 		898B1610189568AB005A62D2 /* CNPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNPresentation.h; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 		898B163618967EA2005A62D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		89A45EE518F17C2000CEB53E /* CNStartupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNStartupViewController.h; sourceTree = "<group>"; };
 		89A45EE618F17C2000CEB53E /* CNStartupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNStartupViewController.m; sourceTree = "<group>"; };
-		89A45EE818F1930200CEB53E /* apple-touch-icon_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon_120x120.png"; sourceTree = "<group>"; };
 		89A45EEB18F65A8400CEB53E /* CNTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNTheme.h; sourceTree = "<group>"; };
 		89A45EEC18F65A8400CEB53E /* CNTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNTheme.m; sourceTree = "<group>"; };
 		89A45F1118F9583700CEB53E /* cell_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_gradient.png; path = ../assets/cell_gradient.png; sourceTree = "<group>"; };
@@ -124,6 +121,7 @@
 		89A45F1718F9901400CEB53E /* tableviewcell_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tableviewcell_background@2x.png"; path = "../assets/tableviewcell_background@2x.png"; sourceTree = "<group>"; };
 		89A45F1918F9911300CEB53E /* tableviewcell_high_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tableviewcell_high_background.png; path = ../assets/tableviewcell_high_background.png; sourceTree = "<group>"; };
 		89A45F1A18F9911300CEB53E /* tableviewcell_high_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tableviewcell_high_background@2x.png"; path = "../assets/tableviewcell_high_background@2x.png"; sourceTree = "<group>"; };
+		89CE586F19EAB78C00388F22 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		89FBB87A188E7715008624ED /* CNConferenceBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNConferenceBuilder.h; sourceTree = "<group>"; };
 		89FBB87B188E7715008624ED /* CNConferenceBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNConferenceBuilder.m; sourceTree = "<group>"; };
 		89FBB880188E8280008624ED /* CNServiceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNServiceHandler.h; sourceTree = "<group>"; };
@@ -184,6 +182,7 @@
 				893DFFFE1897D40000F3564E /* CNSpeakerViewController.m */,
 				898B162918967E5C005A62D2 /* Main_iPad.storyboard */,
 				898B162B18967E5C005A62D2 /* Main_iPhone.storyboard */,
+				89CE586F19EAB78C00388F22 /* Launch.storyboard */,
 				898B162618967E3F005A62D2 /* Images.xcassets */,
 				894EAC11188D1BE300CD1EF7 /* Supporting Files */,
 				894EAC32188D1BE300CD1EF7 /* CNTests */,
@@ -292,8 +291,6 @@
 				89A45F1718F9901400CEB53E /* tableviewcell_background@2x.png */,
 				89A45F1318F959E900CEB53E /* tableviewcell_background.png */,
 				89A45F1118F9583700CEB53E /* cell_gradient.png */,
-				89A45EE818F1930200CEB53E /* apple-touch-icon_120x120.png */,
-				898B160B18956079005A62D2 /* conference_example_logo.jpg */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -390,14 +387,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A45EE918F1930200CEB53E /* apple-touch-icon_120x120.png in Resources */,
-				898B160C18956079005A62D2 /* conference_example_logo.jpg in Resources */,
 				89A45F1C18F9911300CEB53E /* tableviewcell_high_background@2x.png in Resources */,
 				893DFFFB1897ACDE00F3564E /* Main_iPad.storyboard in Resources */,
 				89A45F1818F9901400CEB53E /* tableviewcell_background@2x.png in Resources */,
 				89A45F1218F9583700CEB53E /* cell_gradient.png in Resources */,
 				893DFFFC1897ACE100F3564E /* Main_iPhone.storyboard in Resources */,
 				89A45F1418F959E900CEB53E /* tableviewcell_background.png in Resources */,
+				89CE587019EAB78C00388F22 /* Launch.storyboard in Resources */,
 				898ABE1718FD086F006C9A75 /* image_not_loaded.png in Resources */,
 				898B163718967EA2005A62D2 /* InfoPlist.strings in Resources */,
 				898B162718967E3F005A62D2 /* Images.xcassets in Resources */,
@@ -618,7 +614,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Conference-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = Conference;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -638,7 +634,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conference-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Conference-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = Conference;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

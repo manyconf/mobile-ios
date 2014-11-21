@@ -19,7 +19,8 @@
     [fmt setDateFormat:@"yyyy-MM-dd'T'HH:mm:ssZZZ"];
     NSError *localError = nil;
     NSArray *parsedObject = [NSJSONSerialization JSONObjectWithData:objectNotation options:0 error:&localError];
-    NSMutableDictionary *conferences = [[NSMutableDictionary alloc] init];
+//    NSMutableDictionary *conferences = [[NSMutableDictionary alloc] init];
+    CHOrderedDictionary *conferences = [[CHOrderedDictionary alloc] init];
     
     if (localError != nil) {
         DLog(@"Error in JSON serialization: dumping");
@@ -86,7 +87,7 @@
                 CNTrack *track = [[CNTrack alloc] init];
                 track.trackID = [trackDic valueForKey:@"id"];
                 track.name = [trackDic valueForKey:@"name"];
-                track.description = [trackDic valueForKey:@"description"];
+                track.descr = [trackDic valueForKey:@"description"];
                 track.location = [trackDic valueForKey:@"location"];
                 track.presentations = @[];
                 
@@ -102,7 +103,7 @@
                         CNPresentation *presentation = [[CNPresentation alloc] init];
                         presentation.presID = [presentationDic valueForKey:@"id"];
                         presentation.title = [presentationDic valueForKey:@"title"];
-                        presentation.description = [presentationDic valueForKey:@"description"];
+                        presentation.descr = [presentationDic valueForKey:@"description"];
                         presentation.type = [presentationDic valueForKey:@"type"];
                         presentation.speakers = @[];
                         
@@ -126,8 +127,7 @@
                                 
                                 CNSpeaker *speaker = [[CNSpeaker alloc] init];
                                 speaker.speakerID = [speakerDic valueForKey:@"id"];
-                                speaker.firstName = [speakerDic valueForKey:@"firstName"];
-                                speaker.lastName = [speakerDic valueForKey:@"lastName"];
+                                speaker.name = [speakerDic valueForKey:@"name"];
                                 speaker.biography = [speakerDic valueForKey:@"biography"];
                                 speaker.company = [speakerDic valueForKey:@"company"];
                                 
@@ -164,7 +164,6 @@
         [conferences setObject:conference forKey:conference.confID];
     }
     
-    CHOrderedDictionary *orderedConferences = [[CHOrderedDictionary alloc] initWithDictionary:conferences];
-    return orderedConferences;
+    return conferences;
 }
 @end

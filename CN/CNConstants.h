@@ -10,19 +10,20 @@
 
 // URLs
 
-#if !(TARGET_IPHONE_SIMULATOR)
+#if 1
 #define HOSTNAME                            @"www.manyconf.com"
-#define PORT                                80
+#define PORT                                @"80"
+#define CONTEXT_ROOT                        @""
 #else
-#define HOSTNAME                            @"www.manyconf.com"
-#define PORT                                80
+#define HOSTNAME                            @"localhost"
+#define PORT                                @"8080"
+#define CONTEXT_ROOT                        @"/conference"
 #endif
-#define CONFERENCE_LIST_URL_IOS7            @"http://" HOSTNAME @"/api/1.0/conferences?api_key=" API_KEY @"&sort=startdate&order=desc"
-#define CONFERENCE_LIST_URL                 @"/api/1.0/conferences"
+#define CONFERENCE_LIST_URL_IOS7            @"http://" HOSTNAME @":" PORT CONTEXT_ROOT @"/api/1.0/conferences.json?api_key=" API_KEY @"&sort=startdate&order=desc"
 
 // Getting data
 
-#define REFRESH_RATE                        80.0    // Get new data every 60 seconds
+#define REFRESH_RATE                        10.0    // Get new data every x seconds
 
 // Notification center
 

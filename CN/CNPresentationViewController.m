@@ -37,10 +37,10 @@
         [self.speakerButton setTitle:speakerStr forState:UIControlStateNormal];
     }
     
-    if([self.presentation.description isEqual:[NSNull null]]) {
+    if([self.presentation.descr isEqual:[NSNull null]]) {
         self.descriptionTextView.text = @"";
     } else {
-        self.descriptionTextView.text = self.presentation.description;
+        self.descriptionTextView.text = self.presentation.descr;
     }
     
     // Intelligently fill in the date and location field

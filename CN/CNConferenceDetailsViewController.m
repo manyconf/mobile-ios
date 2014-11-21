@@ -70,9 +70,15 @@
 {
     DLog(@"entry");
     
+    NSNumber *confID = self.conference.confID;
+    
     CHOrderedDictionary *conferenceList;
     conferenceList = [CNServiceHandler shared].conferences;
-    self.conference = [[CNServiceHandler shared].conferences objectForKey:[NSNumber numberWithLong:SINGLE_CONF_APP_ID]];
+    if(SINGLE_CONF_APP) {
+        self.conference = [[CNServiceHandler shared].conferences objectForKey:[NSNumber numberWithLong:SINGLE_CONF_APP_ID]];
+    } else {
+        self.conference = [[CNServiceHandler shared].conferences objectForKey:confID];
+    }
     [self performSelectorOnMainThread:@selector(displayData) withObject:nil waitUntilDone:NO];
 }
 
