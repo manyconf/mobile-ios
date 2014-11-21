@@ -8,8 +8,8 @@ else
     theme="$1"
 fi
 
-src_dir="../../mobile-assets/${theme}"
-target_dir="../CN/Images.xcassets/AppIcon.appiconset"
+src_dir="../mobile-assets/${theme}"
+icon_target_dir="CN/Images.xcassets/AppIcon.appiconset"
 
 if [ ! -d "$src_dir" ]; then
     echo "Can't find directory $src_dir" >&2
@@ -32,13 +32,23 @@ fi
 
 for i in $app_icon_sizes $settings_icon_sizes $spotlight_icon_sizes; do
     echo "Resizing $app_icon to $i x $i"
-    target="${target_dir}/app_icon_${i}.png"
+    target="${icon_target_dir}/app_icon_${i}.png"
     if [ ! -f "$target" ]; then
         echo "Can't find file $target" >&2
         exit 1
     fi
     convert -resize "$i" "$src_dir/$app_icon" "${target}"
 done
+
+theme_src="$src_dir/theme.json"
+theme_target="CN/CNTheme.json"
+if [ -f "$theme_src" ]; then
+    echo "Copying theme JSON"
+    cp "$theme_src" "$theme_target"
+else
+    echo "Can't find file $theme_src" >&2
+    exit 1
+fi
 
 #for i in $app_icons $app_store_icons $spotlight_icons; do
 #    echo "Resizing to $i x $i"
