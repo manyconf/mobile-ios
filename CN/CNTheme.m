@@ -1,6 +1,7 @@
 #import "CNTheme.h"
 #import "DVConstants.h"
 #import "CNConstants.h"
+#import "NSData+dump.h"
 
 
 
@@ -27,33 +28,33 @@
 
 - (void)initialize
 {
-    if(SINGLE_CONF_APP) {
-        DLog(@"Loading singleconf theme");
-        UIColor *darkgray = UIColorFromRGB(0x353534);
-        UIColor *lightblue = UIColorFromRGB(0x00adf3);
-        self.plainTextColor = darkgray;
-        self.navbarBackgroundColor = darkgray;
-        self.navbarTintedForegroundColor = lightblue;
-        self.navbarForegroundColor = [UIColor whiteColor];
-        self.backgroundColor = [UIColor whiteColor];
-        self.statusBarStyle = UIStatusBarStyleDefault;
-        self.emphasizedColor = lightblue;
-        self.regularFontName = [UIFont systemFontOfSize:10.0].fontName;
-        self.boldFontName = [UIFont boldSystemFontOfSize:10.0].fontName;
-
-    } else {
-        DLog(@"Loading standard theme");
-        self.plainTextColor = [UIColor blackColor];
-        self.navbarBackgroundColor = UIColorFromRGB(0x42B5E8);
-        self.navbarForegroundColor = [UIColor whiteColor];
-        self.navbarTintedForegroundColor = [UIColor whiteColor];
-        self.backgroundColor = [UIColor whiteColor];
-        self.statusBarStyle = UIStatusBarStyleLightContent;
-        self.emphasizedColor = UIColorFromRGB(0xff5b50);
-        self.regularFontName = [UIFont systemFontOfSize:10.0].fontName;
-        self.boldFontName = [UIFont boldSystemFontOfSize:10.0].fontName;
-    }
+    DLog(@"entry");
     
+    NSData *json = [CNTheme themeAsJSONData];
+    NSDictionary *theme = [CNTheme themeFromJSONData:json];
+    
+    self.plainTextColor = [CNTheme colorFromHexString:theme[@"plainTextColor"]];
+    self.navbarBackgroundColor = [CNTheme colorFromHexString:theme[@"navbarBackgroundColor"]];
+    self.navbarForegroundColor = [CNTheme colorFromHexString:theme[@"navbarForegroundColor"]];
+    self.navbarTintedForegroundColor = [CNTheme colorFromHexString:theme[@"navbarTintedForegroundColor"]];
+    self.backgroundColor = [CNTheme colorFromHexString:theme[@"backgroundColor"]];
+    if([@"default" isEqualToString:theme[@"statusBarStyle"]]) {
+        self.statusBarStyle = UIStatusBarStyleDefault;
+    } else {
+        self.statusBarStyle = UIStatusBarStyleLightContent;
+    }
+    self.emphasizedColor = [CNTheme colorFromHexString:theme[@"emphasizedColor"]];
+    
+    if([theme[@"regularFontName"] length] == 0) {
+        self.regularFontName = [UIFont systemFontOfSize:10.0].fontName;
+    } else {
+        [NSException raise:@"IllegalFontName" format:@"Font something other than system font not supported"];
+    }
+    if([theme[@"boldFontName"] length] == 0) {
+        self.boldFontName = [UIFont boldSystemFontOfSize:10.0].fontName;
+    } else {
+        [NSException raise:@"IllegalFontName" format:@"Font something other than system font not supported"];
+    }
 }
 
 + (void)markupTableView:(UITableView *)tableView
@@ -76,6 +77,65 @@
     cell.textLabel.backgroundColor = [UIColor clearColor];
     cell.detailTextLabel.backgroundColor = [UIColor clearColor];
     cell.contentView.backgroundColor = [UIColor clearColor];
+}
+
+#pragma mark - Theme JSON parsing
+
++ (NSData*)themeAsJSONData
+{
+    DLog(@"entry");
+
+    NSData *json = nil;
+    NSString *bundle = [[NSBundle mainBundle]pathForResource:@"CNTheme" ofType:@"json"];
+    NSError *error = nil;
+    if(bundle != nil && [[NSFileManager defaultManager] fileExistsAtPath:bundle]) {
+        json = [NSData dataWithContentsOfFile:bundle options:0 error:&error];
+    } else {
+        [NSException raise:@"ErrorReadingThemeFile" format:@"Underlying error: %@", [error localizedDescription]];
+    }
+    return json;
+}
+
++ (NSString*)themeAsJSONString
+{
+    DLog(@"entry");
+
+    NSString *json = @"";
+    NSString *bundle = [[NSBundle mainBundle]pathForResource:@"CNTheme" ofType:@"json"];
+    if(bundle != nil && [[NSFileManager defaultManager] fileExistsAtPath:bundle]) {
+        NSError *error = nil;
+        json = [NSString stringWithContentsOfFile:bundle encoding:NSUTF8StringEncoding error:&error];
+        
+    } else {
+        [NSException raise:@"FileNotFound" format:@"JSON file with theme information was not found"];
+    }
+    return json;
+}
+
++ (NSDictionary*)themeFromJSONData:(NSData*)json
+{
+    DLog(@"entry");
+
+    NSMutableDictionary *dic = [NSMutableDictionary new];
+    NSError *localError = nil;
+    dic = [NSJSONSerialization JSONObjectWithData:json options:0 error:&localError];
+    
+    if (localError != nil) {
+        DLog(@"Error in JSON serialization: dumping");
+        DLog(@"Dump:\n%@", [json dump]);
+    }
+    return dic;
+}
+
++ (UIColor*)colorFromHexString:(NSString*)hexcolor
+{
+    DLog(@"Color string = %@", hexcolor);
+    unsigned int colorNumber;
+    NSScanner* scanner = [NSScanner scannerWithString:hexcolor];
+    [scanner scanHexInt:&colorNumber];
+    DLog(@"Color = 0x%06X", colorNumber);
+    UIColor *color = UIColorFromRGB(colorNumber);
+    return color;
 }
 
 @end

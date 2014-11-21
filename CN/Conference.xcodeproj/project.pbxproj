@@ -24,6 +24,7 @@
 		894EAC37188D1BE300CD1EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 894EAC35188D1BE300CD1EF7 /* InfoPlist.strings */; };
 		894EAC39188D1BE300CD1EF7 /* CNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 894EAC38188D1BE300CD1EF7 /* CNTests.m */; };
 		894EAC45188D304C00CD1EF7 /* CNConference.m in Sources */ = {isa = PBXBuildFile; fileRef = 894EAC44188D304C00CD1EF7 /* CNConference.m */; };
+		895F71501A1F785B00FD78F7 /* CNTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 895F714F1A1F785B00FD78F7 /* CNTheme.json */; };
 		898ABDBA18FAD5CD006C9A75 /* CNLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 898ABDB918FAD5CD006C9A75 /* CNLocation.m */; };
 		898ABE1718FD086F006C9A75 /* image_not_loaded.png in Resources */ = {isa = PBXBuildFile; fileRef = 898ABE1618FD086F006C9A75 /* image_not_loaded.png */; };
 		898B160F18956803005A62D2 /* CNPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898B160E18956803005A62D2 /* CNPresentationViewController.m */; };
@@ -87,6 +88,7 @@
 		894EAC44188D304C00CD1EF7 /* CNConference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNConference.m; sourceTree = "<group>"; };
 		894EAC4D188D37A000CD1EF7 /* DVConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVConstants.h; sourceTree = "<group>"; };
 		895A3AF719BCD57F003D5370 /* CNPrivateConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNPrivateConstants.h; sourceTree = "<group>"; };
+		895F714F1A1F785B00FD78F7 /* CNTheme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CNTheme.json; sourceTree = "<group>"; };
 		898ABDB818FAD5CD006C9A75 /* CNLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNLocation.h; sourceTree = "<group>"; };
 		898ABDB918FAD5CD006C9A75 /* CNLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNLocation.m; sourceTree = "<group>"; };
 		898ABE1618FD086F006C9A75 /* image_not_loaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_not_loaded.png; path = ../assets/image_not_loaded.png; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 		89A45EEA18F65A3400CEB53E /* GUI */ = {
 			isa = PBXGroup;
 			children = (
+				895F714F1A1F785B00FD78F7 /* CNTheme.json */,
 				89A45EEB18F65A8400CEB53E /* CNTheme.h */,
 				89A45EEC18F65A8400CEB53E /* CNTheme.m */,
 				893DFFF2189687A000F3564E /* MBProgressHUD.h */,
@@ -395,6 +398,7 @@
 				89A45F1418F959E900CEB53E /* tableviewcell_background.png in Resources */,
 				89CE587019EAB78C00388F22 /* Launch.storyboard in Resources */,
 				898ABE1718FD086F006C9A75 /* image_not_loaded.png in Resources */,
+				895F71501A1F785B00FD78F7 /* CNTheme.json in Resources */,
 				898B163718967EA2005A62D2 /* InfoPlist.strings in Resources */,
 				898B162718967E3F005A62D2 /* Images.xcassets in Resources */,
 				89A45F1B18F9911300CEB53E /* tableviewcell_high_background.png in Resources */,
