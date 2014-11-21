@@ -9,6 +9,16 @@ Podfile.lock
 # Libraries
 Crashlytics.framework
 
+# Private Xcode files
+Conference.xcworkspace/xcuserdata
+
+###
+### Ignore themed files
+###
+
+# App icons
+CN/Images.xcassets
+
 ###
 ### Generic OS files to ignore
 ###
